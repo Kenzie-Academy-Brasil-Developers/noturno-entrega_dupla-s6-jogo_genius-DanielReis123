@@ -20,11 +20,13 @@ html{
 
 .navAcao{
   margin-right: 80px;
+  margin-left: 50px;
 }
 
 #painelCompartilhamento{
   display: flex;
   list-style: none;
+  margin-right: 50px;
 }
 
 .redeSocial{
@@ -38,18 +40,22 @@ html{
 
 #facebook{
   background-color: #3b5998;
+  border-radius: 8px;
 }
 
 #whatsapp{
-  background-color: #34af23 ;
+  background-color: #34af23;
+  border-radius: 8px;
 }
 
 #twitter{
-  background-color: #00aced ;
+  background-color: #00aced;
+  border-radius: 8px;
 }
 
 #linkedIn{
-  background-color: #0e76a8 ;
+  background-color: #0e76a8;
+  border-radius: 8px;
 }
 
 #btJogar{
@@ -74,6 +80,7 @@ main{
 
 aside{
   max-width: 300px;
+  margin-right: 50px;
 }
 
 #gameGenius{
@@ -84,10 +91,10 @@ aside{
 }
 
 .genius{
-  margin: 10px;
+  margin: 8px;
 }
 
-#corVerde{
+.corVerde{
     background-color: green;
     width: 250px;
     height: 250px;
@@ -95,7 +102,7 @@ aside{
     border-bottom-right-radius: 150px;
 }
 
-#corAmarela{
+.corAmarela{
   background-color: yellow;
   width: 250px;
   height: 250px;
@@ -103,7 +110,7 @@ aside{
   border-bottom-left-radius: 150px;
 }
 
-#corVermelha{
+.corVermelha{
   background-color: red;
   width: 250px;
   height: 250px;
@@ -112,7 +119,7 @@ aside{
   
 }
 
-#corAzul{
+.corAzul{
   background-color: blue;
   width: 250px;
   height: 250px;
