@@ -1,4 +1,4 @@
-# Entrega: Jogo GENIUS
+# Entrega: Jogo GENIUS...
 
 ## Introdução
 
