@@ -41,21 +41,25 @@ html{
 #facebook{
   background-color: #3b5998;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 #whatsapp{
   background-color: #34af23;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 #twitter{
   background-color: #00aced;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 #linkedIn{
   background-color: #0e76a8;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 #btJogar{
@@ -68,6 +72,7 @@ html{
   width: 80px;
   height: 35px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 main{
@@ -91,11 +96,11 @@ aside{
 }
 
 .genius{
-  margin: 8px;
+  margin: 6px;
 }
 
 .corVerde{
-    background-color: green;
+    background-color: #008000;
     width: 250px;
     height: 250px;
     border-top-left-radius: 300px;
@@ -103,14 +108,18 @@ aside{
     cursor: pointer;
 }
 
+.piscaVerde{
+  background-color: #70e000;
+}
+
 .corVerde:hover{
   border: 3px solid #64dfdf;
-  transform: scale(1.05); 
+  transform: scale(1.01); 
   box-shadow: 0 1px 1px rgba(236, 9, 168, 0.6);
 }
 
 .corAmarela{
-  background-color: yellow;
+  background-color: #ffd100;
   width: 250px;
   height: 250px;
   border-top-right-radius: 300px;
@@ -118,14 +127,18 @@ aside{
   cursor: pointer;
 }
 
+.piscaAmarelo{
+  background-color: #ffee32 ;
+}
+
 .corAmarela:hover{
   border: 3px solid #64dfdf;
-  transform: scale(1.05); 
+  transform: scale(1.01); 
   box-shadow: 0 1px 1px rgba(40, 255, 2, 0.6);
 }
 
 .corVermelha{
-  background-color: red;
+  background-color: #d40000;
   width: 250px;
   height: 250px;
   border-bottom-right-radius: 300px;
@@ -133,14 +146,18 @@ aside{
   cursor: pointer;
 }
 
+.piscaVermelho{
+  background-color: #e12c2c;
+}
+
 .corVermelha:hover{
   border: 3px solid #64dfdf;
-  transform: scale(1.05); 
+  transform: scale(1.01); 
   box-shadow: 0 1px 1px rgba(236, 224, 9, 0.6);
 }
 
 .corAzul{
-  background-color: blue;
+  background-color: #072ac8;
   width: 250px;
   height: 250px;
   border-bottom-left-radius: 300px;
@@ -148,9 +165,13 @@ aside{
   cursor: pointer;
 }
 
+.piscaAzul{
+  background-color: #00509d;
+}
+
 .corAzul:hover{
   border: 3px solid #64dfdf;
-  transform: scale(1.05); 
+  transform: scale(1.01); 
   box-shadow: 0 1px 1px rgba(236, 224, 9, 0.6);
 }
 
