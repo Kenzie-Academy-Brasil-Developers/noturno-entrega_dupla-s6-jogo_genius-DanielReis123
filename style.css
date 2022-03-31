@@ -100,6 +100,13 @@ aside{
     height: 250px;
     border-top-left-radius: 300px;
     border-bottom-right-radius: 150px;
+    cursor: pointer;
+}
+
+.corVerde:hover{
+  border: 3px solid #64dfdf;
+  transform: scale(1.05); 
+  box-shadow: 0 1px 1px rgba(236, 9, 168, 0.6);
 }
 
 .corAmarela{
@@ -108,6 +115,13 @@ aside{
   height: 250px;
   border-top-right-radius: 300px;
   border-bottom-left-radius: 150px;
+  cursor: pointer;
+}
+
+.corAmarela:hover{
+  border: 3px solid #64dfdf;
+  transform: scale(1.05); 
+  box-shadow: 0 1px 1px rgba(40, 255, 2, 0.6);
 }
 
 .corVermelha{
@@ -116,7 +130,13 @@ aside{
   height: 250px;
   border-bottom-right-radius: 300px;
   border-top-left-radius: 150px;
-  
+  cursor: pointer;
+}
+
+.corVermelha:hover{
+  border: 3px solid #64dfdf;
+  transform: scale(1.05); 
+  box-shadow: 0 1px 1px rgba(236, 224, 9, 0.6);
 }
 
 .corAzul{
@@ -125,6 +145,13 @@ aside{
   height: 250px;
   border-bottom-left-radius: 300px;
   border-top-right-radius: 150px;
+  cursor: pointer;
+}
+
+.corAzul:hover{
+  border: 3px solid #64dfdf;
+  transform: scale(1.05); 
+  box-shadow: 0 1px 1px rgba(236, 224, 9, 0.6);
 }
 
 h1, h2, h3, li, p, a{
